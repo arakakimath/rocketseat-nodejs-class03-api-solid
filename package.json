@@ -1,12 +1,24 @@
 {
-  "name": "api-solid",
+  "name": "rocketseat-nodejs-class03-api-solid",
   "version": "1.0.0",
   "description": "Gympass style app.",
-  "main": "index.js",
+  "main": "build/server.js",
   "scripts": {
-    "start:dev": "tsx watch src/server.ts"
+    "start": "node build/server.js",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
 }
