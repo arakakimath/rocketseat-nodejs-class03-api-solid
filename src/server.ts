@@ -1,11 +1,13 @@
 import { app } from './app'
-import { env } from './env'
+import { env } from '@/env'
 
-app.get('/',()=>'Hello world!')
+app.get('/', () => 'Hello world!')
 
-app.listen({
+app
+  .listen({
     host: '0.0.0.0',
-    port: env.PORT
-}).then((address) => {
+    port: env.PORT,
+  })
+  .then((address) => {
     console.log(`🚀 HTTP Server Running!\n${address}`)
-})
+  })
