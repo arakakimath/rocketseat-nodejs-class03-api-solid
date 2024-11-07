@@ -4,7 +4,7 @@ Gympass style app.
 
 # RFs (Requisitos funcionais)
 
-- [ ] It should be possible to register
+- [x] It should be possible to register
 - [ ] It should be possible to authenticate
 - [ ] It should be possible to get profile of a signed in user
 - [ ] It should be possible to get the number of check-ins of the user
