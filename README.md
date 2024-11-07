@@ -30,3 +30,35 @@ Gympass style app.
 - [ ] App data should be persisted in a PostgreSQL database
 - [ ] All data lists should be organized into pages limited to 20 each
 - [ ] User should be identified by a JWT (Json Web Token)
+
+# Useful commands
+
+- Generate prisma base files
+
+```sh
+npx prisma init
+```
+
+- Executes changes in the schema.prisma file
+
+```sh
+npx prisma generate
+```
+
+- Executes all changes and creates a migration automatically
+
+```sh
+npx prisma migrate dev
+```
+
+- Opens a localhost acess to database
+
+```sh
+npx prisma studio
+```
+
+- Executes configs from 'docker-compose.yml'. -d is a flag to not show logs
+
+```sh
+docker compose up -d 
+```

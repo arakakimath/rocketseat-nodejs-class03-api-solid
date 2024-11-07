@@ -1,0 +1,6 @@
+npx prisma init => Generate prisma base files
+npx prisma generate => Executes changes in the schema.prisma file
+npx prisma migrate dev => Executes all changes and creates a migration automatically
+npx prisma studio => Opens a localhost acess to database
+
+docker compose up -d => Executes configs from 'docker-compose.yml'. -d is a flag to not show logs
