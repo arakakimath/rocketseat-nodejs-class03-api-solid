@@ -16,6 +16,7 @@
         "semi": false
       }
     ],
-    "camelCase": "off"
+    "camelCase": "off",
+    "no-useless-constructor": "off"
   }
 }
