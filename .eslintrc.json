@@ -15,6 +15,7 @@
         "arrowParens": "always",
         "semi": false
       }
-    ]
+    ],
+    "camelCase": "off"
   }
 }
