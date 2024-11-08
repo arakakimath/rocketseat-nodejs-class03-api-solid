@@ -2,10 +2,10 @@
   "name": "rocketseat-nodejs-class03-api-solid",
   "version": "1.0.0",
   "description": "Gympass style app.",
-  "main": "build/server.js",
+  "main": "build/server.cjs",
   "type": "module",
   "scripts": {
-    "start": "node build/server.js",
+    "start": "node build/server.cjs",
     "start:dev": "tsx watch src/server.ts",
     "build": "tsup src --out-dir build",
     "studio": "prisma studio",
