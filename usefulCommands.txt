@@ -4,3 +4,5 @@ npx prisma migrate dev => Executes all changes and creates a migration automatic
 npx prisma studio => Opens a localhost acess to database
 
 docker compose up -d => Executes configs from 'docker-compose.yml'. -d is a flag to not show logs
+
+vite-tsconfig-paths => Package necessary to vitest understand @/ as import

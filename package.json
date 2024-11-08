@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Gympass style app.",
   "main": "build/server.js",
+  "type": "module",
   "scripts": {
     "start": "node build/server.js",
     "start:dev": "tsx watch src/server.ts",
     "build": "tsup src --out-dir build",
-    "studio": "prisma studio"
+    "studio": "prisma studio",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +31,8 @@
     "ts-node": "10.9.2",
     "tsup": "8.3.5",
     "tsx": "4.19.2",
-    "typescript": "5.6.3"
+    "typescript": "5.6.3",
+    "vite-tsconfig-paths": "5.1.0",
+    "vitest": "2.1.4"
   }
 }
