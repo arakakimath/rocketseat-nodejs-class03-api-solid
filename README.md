@@ -27,7 +27,7 @@ Gympass style app.
 # RNFs (Requisitos não-funcionais)
 
 - [x] User's password should be encrypted
-- [ ] App data should be persisted in a PostgreSQL database
+- [x] App data should be persisted in a PostgreSQL database
 - [ ] All data lists should be organized into pages limited to 20 each
 - [ ] User should be identified by a JWT (Json Web Token)
 
