@@ -9,6 +9,7 @@
     "start:dev": "tsx watch src/server.ts",
     "build": "tsup src --out-dir build",
     "studio": "prisma studio",
+    "start:docker": "docker-compose up -d",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
