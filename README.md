@@ -12,7 +12,7 @@ Gympass style app.
 - [x] It should be possible to search for nearby gyms (up to 10 km)
 - [x] It should be possible to search a gym by name
 - [x] It should be possible for an user to check-in in a gym
-- [ ] It should be possible to validate user check-in
+- [x] It should be possible to validate user check-in
 - [x] It should be possible to register a new gym
  
 # RNs (Regras de negócio)
