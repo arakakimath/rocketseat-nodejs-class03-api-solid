@@ -60,6 +60,8 @@ export class PrismaCheckInsRepository implements CheckInsRepository {
       take: 20,
       skip: (page - 1) * 20
     })
+
+    return checkIns
   }
 
   async countByUserId(userId: string) {
