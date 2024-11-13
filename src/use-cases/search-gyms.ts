@@ -15,7 +15,7 @@ interface SearchGymsUseCaseResponse {
 // D - Dependency Inversion Principle
 
 export class SearchGymsUseCase {
-  constructor(private gymsRepository: GymsRepository) { }
+  constructor(private gymsRepository: GymsRepository) {}
 
   async execute({
     query,

@@ -13,14 +13,14 @@ interface FetchUserCheckInsHistoryUseCaseResponse {
 }
 
 export class FetchUserCheckInsHistoryUseCase {
-  constructor(private checkInsRepository: CheckInsRepository) { }
+  constructor(private checkInsRepository: CheckInsRepository) {}
 
   async execute({
     userId,
     page,
   }: FetchUserCheckInsHistoryUseCaseRequest): Promise<FetchUserCheckInsHistoryUseCaseResponse> {
     const pageSchema = z.object({
-      page: z.number().default(1)
+      page: z.number().default(1),
     })
 
     const pageObj = pageSchema.parse({ page })
