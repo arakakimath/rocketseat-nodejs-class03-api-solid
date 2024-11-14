@@ -9,7 +9,9 @@ describe('Nearby Gyms (e2e)', () => {
     await app.ready()
   })
 
-  afterAll(() => { })
+  afterAll(async () => {
+    await app.close()
+  })
 
   it('should be able to search for nearby gyms', async () => {
     const { token } = await createAndAuthenticateUser(app)

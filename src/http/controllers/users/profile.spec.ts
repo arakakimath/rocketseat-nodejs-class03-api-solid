@@ -9,7 +9,9 @@ describe('Profile (e2e)', () => {
     await app.ready()
   })
 
-  afterAll(() => { })
+  afterAll(async () => {
+    await app.close()
+  })
 
   it('should be able to get user profile', async () => {
     const { token } = await createAndAuthenticateUser(app)

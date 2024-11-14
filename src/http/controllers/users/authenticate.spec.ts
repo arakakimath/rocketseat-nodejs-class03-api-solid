@@ -8,7 +8,9 @@ describe('Authenticate (e2e)', () => {
     await app.ready()
   })
 
-  afterAll(() => { })
+  afterAll(async () => {
+    await app.close()
+  })
 
   it('should be able to authenticate', async () => {
     await request(app.server).post('/users').send({
