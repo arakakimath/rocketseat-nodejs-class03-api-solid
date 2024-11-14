@@ -5,7 +5,7 @@ import { z } from 'zod'
 
 interface FetchUserCheckInsHistoryUseCaseRequest {
   userId: string
-  page?: string
+  page?: number
 }
 
 interface FetchUserCheckInsHistoryUseCaseResponse {
