@@ -7,6 +7,7 @@ declare module '@fastify/jwt' {
     } // payload type is used for signing and verifying
     user: {
       sub: string
+      role: 'ADMIN' | 'MEMBER'
       // id: number
       // name: string
       // age: number
